@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<h3>
+    <div style="position:sticky;top:0;z-index:99999; background-color:black;">
+
+
+        <div class="menu1" id="myNavbar1">
+            <span><a href="#home">Home</a></span>&nbsp;
+            <span><a href="#Grids">Grid view</a></span>&nbsp;
+            <span><a href="#slides">Slide view</a></span>&nbsp;
+            <span><a href="#contact">Contact</a></span>
+
+        </div>
+
+    </div>
+</h3>
+
+<body>
+
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2>
+                <img id="img1" src="blackberries-in-a-bowl.jpeg" class="img-responsive">
+            </div>
+        </section>
+        <!>
+            <hr style="width: 100%;">
+            <section id="Grids">
+                <h2> Grid gallery</h2>
+                <br>
+                <script src=""></script>
+                <div class="row">
+                    <img class="img2" src="blueberries.jpeg">
+                    <img class="img2" src="grapefruit juice.jpeg">
+                    <img class="img2" src="litchi.jpeg">
+                    <img class="img2" src="mango.jpeg">
+                    <br><br>
+                </div>
+                <div class="row">
+                    <img class="img2" src="Passion-Fruit-Juice.jpeg">
+                    <img class="img2" src="peach ice tea.jpeg">
+                    <img class="img2" src="raspberry .jpeg">
+                    <img class="img2" src="strawberries_759.jpeg">
+                </div>
+
+            </section>
+
+            <br>
+            <br>
+            <hr style="width: 100%;">
+
+
+            <section id="slides">
+                <h2>Sliding gallary</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+
+                    </ol>
+
+
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <img class="img-responsive" src="blueberries.jpeg" alt="Captain America" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Blueberry</h3>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="img-responsive" src="grapefruit juice.jpeg" alt="Black Panther" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Grapefruit Juice</h3>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="img-responsive" src="litchi.jpeg" alt="Hulk" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Litchi</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="mango.jpeg" alt="Ironman" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Mango</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="Passion-Fruit-Juice.jpeg" alt="Thanos" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Passion fruit Juice</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="peach ice tea.jpeg" alt="Thor" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Peach iced tea</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="raspberry .jpeg" alt="Gamora" style="width:100%;">
+
+                            <div class="carousel-caption">
+                                <h3>Raspberry</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="strawberries_759.jpeg" alt="Scarlet" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Strawberrys</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+            <hr style="width: 100%;">
+            <section id="contact">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.814909055665!2d78.50372752969615!3d17.420668035787468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb998eedf2a3a9%3A0x642d0a82bc4ddb43!2sPrashanti%20Nilayam%2C%20Abhinav%20Colony%2C%20Walker%20Town%2C%20Padmarao%20Nagar%2C%20Hyderabad%2C%20Telangana%20500025!5e0!3m2!1sen!2sin!4v1619089731378!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <hr style="width: 100%;">
+                <div class="contact_1">
+
+                    <a href="mailto:my@gmail.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;Ananyasomareddy@gmail.com</h5>
+                    </a>
+
+                    
+                </div>
+
+            </section>
+
+
+    </div>
+
+</body>
+
+</html>
